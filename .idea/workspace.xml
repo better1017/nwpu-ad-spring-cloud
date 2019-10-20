@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fb6118d-7dab-4826-bc1a-bbbcab599c8b" name="Default Changelist" comment="" />
+    <list default="true" id="5fb6118d-7dab-4826-bc1a-bbbcab599c8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-eureka/src/main/java/edu/nwpu/ad/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-eureka/src/main/java/edu/nwpu/ad/EurekaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ad-eureka/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,7 +32,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1SSaFpwjuCLoLG2rbdBcyYjwHjB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -45,6 +56,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="EurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.nwpu.ad.EurekaApplication" />
+      <module name="ad-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.nwpu.ad.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EurekaApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -55,11 +86,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571559349692</updated>
-      <workItem from="1571559352838" duration="2681000" />
+      <workItem from="1571559352838" duration="3473000" />
+      <workItem from="1571563184795" duration="1173000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
