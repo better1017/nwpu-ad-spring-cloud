@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ad-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ad-gateway" charset="UTF-8" />
   </component>
 </project>

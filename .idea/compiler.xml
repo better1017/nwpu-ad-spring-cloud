@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ad-gateway" />
         <module name="ad-eureka" />
       </profile>
     </annotationProcessing>
@@ -13,6 +14,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ad-eureka" options="-parameters" />
+      <module name="ad-gateway" options="-parameters" />
     </option>
   </component>
 </project>

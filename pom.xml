@@ -11,6 +11,7 @@
 
     <modules><!-- 管理子项目用的 -->
         <module>ad-eureka</module>
+        <module>ad-gateway</module>
     </modules>
 
     <name>nwpu-ad-spring-cloud</name>
