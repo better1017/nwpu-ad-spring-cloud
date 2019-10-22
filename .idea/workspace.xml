@@ -2,18 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fb6118d-7dab-4826-bc1a-bbbcab599c8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ad-gateway/src/main/java/edu/nwpu/ad/filter/AccessLogFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-gateway/src/main/java/edu/nwpu/ad/filter/PreRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/advice/CommonResponseDataAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/advice/GlobalExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/annotation/IgnoreResponseAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/conf/WebConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/exception/AdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/vo/CommonResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/nwpu-ad-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ad-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ad-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-eureka/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ad-eureka/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="nwpu-ad-spring-cloud" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -118,17 +128,7 @@
       <serviceView>
         <option name="contentProportion" value="0.19737801" />
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c51fcdd4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c51fcdd4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@21eda485" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -146,7 +146,9 @@
       <updated>1571559349692</updated>
       <workItem from="1571559352838" duration="3473000" />
       <workItem from="1571563184795" duration="2414000" />
-      <workItem from="1571633239857" duration="8385000" />
+      <workItem from="1571633239857" duration="9522000" />
+      <workItem from="1571710414522" duration="4329000" />
+      <workItem from="1571721081407" duration="5297000" />
     </task>
     <servers />
   </component>
