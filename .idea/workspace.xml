@@ -2,19 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fb6118d-7dab-4826-bc1a-bbbcab599c8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/advice/CommonResponseDataAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/advice/GlobalExceptionAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/annotation/IgnoreResponseAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/conf/WebConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/exception/AdException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/vo/CommonResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/nwpu-ad-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/SponsorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/constant/CommonStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/constant/CreativeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/constant/CreatvieMaterialType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/dao/AdPlanRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/dao/AdUnitRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/dao/AdUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/dao/CreativeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/entity/AdPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/entity/AdUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/entity/AdUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/entity/Creative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/entity/unit_condition/AdUnitDistrict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/entity/unit_condition/AdUnitIt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/entity/unit_condition/AdUnitKeyword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/entity/unit_condition/CreativeUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nwpu-ad-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nwpu-ad-service/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,13 +65,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ad-gateway/src/main/java/edu/nwpu/ad" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/entity/unit_condition" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -69,6 +79,7 @@
       <recent name="ad" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Java\nwpu-ad-spring-cloud\nwpu-ad-service\ad-sponsor\src\main\java\edu\nwpu\ad\entity\unit_condition" />
       <recent name="D:\WorkSpace\Java\nwpu-ad-spring-cloud\ad-gateway\src\main\java\edu\nwpu\ad" />
     </key>
   </component>
@@ -106,6 +117,13 @@
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ad-eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.nwpu.ad.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SponsorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ad-sponsor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.nwpu.ad.SponsorApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,7 +166,21 @@
       <workItem from="1571563184795" duration="2414000" />
       <workItem from="1571633239857" duration="9522000" />
       <workItem from="1571710414522" duration="4329000" />
-      <workItem from="1571721081407" duration="5297000" />
+      <workItem from="1571721081407" duration="6366000" />
+      <workItem from="1571752956948" duration="1454000" />
+      <workItem from="1571807847191" duration="370000" />
+      <workItem from="1571810333840" duration="1006000" />
+      <workItem from="1571811362889" duration="356000" />
+      <workItem from="1571814771123" duration="424000" />
+      <workItem from="1571815322285" duration="1032000" />
+      <workItem from="1571816883329" duration="1668000" />
+      <workItem from="1571818594639" duration="330000" />
+      <workItem from="1571819159084" duration="462000" />
+      <workItem from="1571820107677" duration="345000" />
+      <workItem from="1571821837097" duration="6352000" />
+      <workItem from="1571836458197" duration="115000" />
+      <workItem from="1571836716524" duration="3239000" />
+      <workItem from="1571840208006" duration="250000" />
     </task>
     <servers />
   </component>

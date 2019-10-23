@@ -9,6 +9,7 @@
         <module name="ad-gateway" />
         <module name="ad-eureka" />
         <module name="ad-common" />
+        <module name="ad-sponsor" />
       </profile>
     </annotationProcessing>
   </component>
@@ -17,6 +18,7 @@
       <module name="ad-common" options="-parameters" />
       <module name="ad-eureka" options="-parameters" />
       <module name="ad-gateway" options="-parameters" />
+      <module name="ad-sponsor" options="-parameters" />
       <module name="nwpu-ad-service" options="-parameters" />
     </option>
   </component>
