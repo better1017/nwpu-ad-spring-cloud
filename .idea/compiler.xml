@@ -9,17 +9,27 @@
         <module name="ad-gateway" />
         <module name="ad-eureka" />
         <module name="ad-common" />
+        <module name="ad-search" />
         <module name="ad-sponsor" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ad-common" target="1.8" />
+      <module name="ad-eureka" target="1.8" />
+      <module name="ad-gateway" target="1.8" />
+      <module name="ad-search" target="1.8" />
+      <module name="ad-sponsor" target="1.8" />
+      <module name="nwpu-ad" target="1.8" />
+      <module name="nwpu-ad-service" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ad-common" options="-parameters" />
       <module name="ad-eureka" options="-parameters" />
       <module name="ad-gateway" options="-parameters" />
+      <module name="ad-search" options="-parameters" />
       <module name="ad-sponsor" options="-parameters" />
-      <module name="nwpu-ad-service" options="-parameters" />
     </option>
   </component>
 </project>
