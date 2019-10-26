@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2118611f-35c3-47d6-b550-64aed7d3ddd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/index/IndexAware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/index/adplan/AdPlanIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/index/adplan/AdPlanObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/index/adplan/AdPlanIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/index/adplan/AdPlanIndex.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +102,7 @@
       <workItem from="1572010658175" duration="775000" />
       <workItem from="1572011872017" duration="2016000" />
       <workItem from="1572068204608" duration="1327000" />
-      <workItem from="1572072267738" duration="731000" />
+      <workItem from="1572072267738" duration="1415000" />
     </task>
     <servers />
   </component>

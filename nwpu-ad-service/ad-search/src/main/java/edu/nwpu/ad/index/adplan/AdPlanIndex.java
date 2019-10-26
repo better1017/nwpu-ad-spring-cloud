@@ -9,6 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * 索引实现类
+ * 索引服务实现：实现对索引的增删改查
  */
 @Slf4j
 @Component
@@ -21,7 +22,7 @@ public class AdPlanIndex implements IndexAware<Long, AdPlanObject> {
     }
 
     /**
-     * get方法，通过key获取到AdPlanObject
+     * get方法，通过key获取到AdPlanObject，查询
      */
     @Override
     public AdPlanObject get(Long key) {
@@ -29,7 +30,7 @@ public class AdPlanIndex implements IndexAware<Long, AdPlanObject> {
     }
 
     /**
-     * 添加一个索引
+     * 添加一个索引，添加
      * */
     @Override
     public void add(Long key, AdPlanObject value) {
@@ -39,7 +40,7 @@ public class AdPlanIndex implements IndexAware<Long, AdPlanObject> {
     }
 
     /**
-     * 更新一个索引
+     * 更新一个索引，修改
      * */
     @Override
     public void update(Long key, AdPlanObject value) {
@@ -54,7 +55,7 @@ public class AdPlanIndex implements IndexAware<Long, AdPlanObject> {
     }
 
     /**
-     * 删除一个索引
+     * 删除一个索引，删除
      * */
     @Override
     public void delete(Long key, AdPlanObject value) {
