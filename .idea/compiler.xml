@@ -13,15 +13,6 @@
         <module name="ad-sponsor" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ad-common" target="1.8" />
-      <module name="ad-eureka" target="1.8" />
-      <module name="ad-gateway" target="1.8" />
-      <module name="ad-search" target="1.8" />
-      <module name="ad-sponsor" target="1.8" />
-      <module name="nwpu-ad" target="1.8" />
-      <module name="nwpu-ad-service" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
