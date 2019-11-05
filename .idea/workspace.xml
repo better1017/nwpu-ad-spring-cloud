@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14b41163-a682-451f-9985-4338f012e9c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/index/creativeunit/CreativeUnitIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/index/creativeunit/CreativeUnitObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/dump/DConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/dump/table/AdCreativeTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/dump/table/AdCreativeUnitTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/dump/table/AdPlanTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/dump/table/AdUnitDistrictTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/dump/table/AdUnitItTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/dump/table/AdUnitKeywordTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/dump/table/AdUnitTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,7 +123,8 @@
       <workItem from="1572585877648" duration="287000" />
       <workItem from="1572586195427" duration="2359000" />
       <workItem from="1572597453389" duration="6765000" />
-      <workItem from="1572672275832" duration="7647000" />
+      <workItem from="1572672275832" duration="8243000" />
+      <workItem from="1572953776505" duration="3308000" />
     </task>
     <servers />
   </component>
