@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14b41163-a682-451f-9985-4338f012e9c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/dao/unit_condition/AdUnitDistrictRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/dao/unit_condition/AdUnitItRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/dao/unit_condition/AdUnitKeywordRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/main/java/edu/nwpu/ad/dao/unit_condition/CreativeUnitRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/test/java/edu/nwpu/ad/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/test/java/edu/nwpu/ad/service/DumpDataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/src/test/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/handle/AdLevelDataHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/mysql/constant/OpType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/dump/DConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-common/src/main/java/edu/nwpu/ad/dump/DConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-sponsor/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +160,7 @@
       <workItem from="1572597453389" duration="6765000" />
       <workItem from="1572672275832" duration="8243000" />
       <workItem from="1572953776505" duration="4916000" />
-      <workItem from="1573013936450" duration="18029000" />
+      <workItem from="1573013936450" duration="21775000" />
     </task>
     <servers />
   </component>
