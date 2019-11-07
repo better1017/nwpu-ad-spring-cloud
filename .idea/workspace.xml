@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14b41163-a682-451f-9985-4338f012e9c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/handle/AdLevelDataHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/mysql/constant/OpType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/index/DataTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/handle/AdLevelDataHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/handle/AdLevelDataHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/utils/CommonUtils.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +161,8 @@
       <workItem from="1572597453389" duration="6765000" />
       <workItem from="1572672275832" duration="8243000" />
       <workItem from="1572953776505" duration="4916000" />
-      <workItem from="1573013936450" duration="21775000" />
+      <workItem from="1573013936450" duration="22717000" />
+      <workItem from="1573097812751" duration="5123000" />
     </task>
     <servers />
   </component>
