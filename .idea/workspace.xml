@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14b41163-a682-451f-9985-4338f012e9c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/mysql/dto/ParseTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/mysql/TemplateHolder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/mysql/dto/TableTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/mysql/dto/TableTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/mysql/dto/Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/mysql/dto/Template.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,7 +192,7 @@
       <workItem from="1573220290164" duration="4378000" />
       <workItem from="1573281698570" duration="3953000" />
       <workItem from="1574481460680" duration="26000" />
-      <workItem from="1576026805284" duration="2919000" />
+      <workItem from="1576026805284" duration="8277000" />
     </task>
     <servers />
   </component>
