@@ -20,7 +20,7 @@ public class TableTemplate {
     private String tableName;
     private String level;
 
-    private Map<OpType, List<String>> opTypeListMap = new HashMap<>();
+    private Map<OpType, List<String>> opTypeFieldSetMap = new HashMap<>();
 
     /**
      * 字段的索引到字段名的映射

@@ -7,13 +7,13 @@ import lombok.NoArgsConstructor;
 import java.util.List;
 
 /**
- *
+ * 模板文件映射到Template对象
  */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class Template {
 
-    private String databases;
+    private String database;
     private List<JsonTable> tableList;
 }
