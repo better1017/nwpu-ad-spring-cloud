@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14b41163-a682-451f-9985-4338f012e9c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/mysql/TemplateHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/mysql/dto/BinlogRowData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/mysql/listener/AggregationListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/mysql/listener/Ilistener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +73,11 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -86,16 +94,6 @@
       <set>
         <option value="SpringBootApplicationConfigurationType" />
       </set>
-    </option>
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
     </option>
   </component>
   <component name="RunManager" selected="Application.BinlogServiceTest">
@@ -161,14 +159,15 @@
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <option name="contentProportion" value="0.1343817" />
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -192,7 +191,12 @@
       <workItem from="1573220290164" duration="4378000" />
       <workItem from="1573281698570" duration="3953000" />
       <workItem from="1574481460680" duration="26000" />
-      <workItem from="1576026805284" duration="8277000" />
+      <workItem from="1576026805284" duration="8878000" />
+      <workItem from="1576674068384" duration="1281000" />
+      <workItem from="1576743887674" duration="6263000" />
+      <workItem from="1577325737961" duration="49000" />
+      <workItem from="1577325896250" duration="754000" />
+      <workItem from="1577326668094" duration="4538000" />
     </task>
     <servers />
   </component>
@@ -211,5 +215,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="408" y="159" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577326647783">
+      <screen x="0" y="0" width="1454" height="864" />
+    </state>
+    <state x="408" y="159" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1454.864@0.0.1454.864" timestamp="1577326647783" />
+    <state x="408" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1577326668848">
+      <screen x="0" y="0" width="1454" height="864" />
+    </state>
+    <state x="408" y="257" key="com.intellij.ide.util.TipDialog/0.0.1454.864@0.0.1454.864" timestamp="1577326668848" />
+    <state x="390" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1577326578450">
+      <screen x="0" y="0" width="1454" height="864" />
+    </state>
+    <state x="390" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1454.864@0.0.1454.864" timestamp="1577326578450" />
   </component>
 </project>
