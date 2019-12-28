@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14b41163-a682-451f-9985-4338f012e9c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/mysql/listener/IncrementListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/sender/ISender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/sender/index/IndexSender.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/sender/kafka/KafkaSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/handle/AdLevelDataHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/handle/AdLevelDataHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +201,7 @@
       <workItem from="1577325896250" duration="754000" />
       <workItem from="1577326668094" duration="12151000" />
       <workItem from="1577521857148" duration="4061000" />
-      <workItem from="1577526306784" duration="4564000" />
+      <workItem from="1577526306784" duration="7186000" />
     </task>
     <servers />
   </component>
@@ -225,10 +222,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1577523860255">
+    <state x="320" y="91" key="#Inspections" timestamp="1577537173462">
       <screen x="0" y="0" width="1454" height="864" />
     </state>
-    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1454.864@0.0.1454.864" timestamp="1577523860255" />
+    <state x="320" y="91" key="#Inspections/0.0.1454.864@0.0.1454.864" timestamp="1577537173462" />
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1577536196935">
+      <screen x="0" y="0" width="1454" height="864" />
+    </state>
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1454.864@0.0.1454.864" timestamp="1577536196935" />
     <state x="408" y="159" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577326647783">
       <screen x="0" y="0" width="1454" height="864" />
     </state>

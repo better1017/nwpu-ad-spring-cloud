@@ -34,3 +34,15 @@ management:
     web:
       exposure:
         include: "*" #暴露全部的监控信息
+
+adconf:
+  mysql:
+    host: 127.0.0.1
+    port: 3306
+    username: root
+    password: Djangobbs
+    binlogName: ""
+    position: -1
+
+  kafka:
+    topic: ad-search-mysql-data
