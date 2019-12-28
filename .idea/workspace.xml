@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14b41163-a682-451f-9985-4338f012e9c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/index/DateLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/mysql/listener/IncrementListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/sender/ISender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/sender/index/IndexSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/sender/kafka/KafkaSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/service/BinlogServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/service/BinlogServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/utils/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/handle/AdLevelDataHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/handle/AdLevelDataHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +86,14 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/mysql/listener" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Java\projects\nwpu-ad-spring-cloud\nwpu-ad-service\ad-search\src\main\java\edu\nwpu\ad\mysql\listener" />
+      <recent name="D:\WorkSpace\Java\projects\nwpu-ad-spring-cloud\nwpu-ad-service\ad-search\src\main\java\edu\nwpu\ad" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -194,7 +202,9 @@
       <workItem from="1576743887674" duration="6263000" />
       <workItem from="1577325737961" duration="49000" />
       <workItem from="1577325896250" duration="754000" />
-      <workItem from="1577326668094" duration="10480000" />
+      <workItem from="1577326668094" duration="12151000" />
+      <workItem from="1577521857148" duration="4061000" />
+      <workItem from="1577526306784" duration="4564000" />
     </task>
     <servers />
   </component>
@@ -215,30 +225,34 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1577523860255">
+      <screen x="0" y="0" width="1454" height="864" />
+    </state>
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1454.864@0.0.1454.864" timestamp="1577523860255" />
     <state x="408" y="159" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577326647783">
       <screen x="0" y="0" width="1454" height="864" />
     </state>
     <state x="408" y="159" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1454.864@0.0.1454.864" timestamp="1577326647783" />
-    <state width="1411" height="247" key="GridCell.Tab.0.bottom" timestamp="1577346119917">
+    <state width="1411" height="247" key="GridCell.Tab.0.bottom" timestamp="1577350033110">
       <screen x="0" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="247" key="GridCell.Tab.0.bottom/0.0.1454.864@0.0.1454.864" timestamp="1577346119917" />
-    <state width="1411" height="247" key="GridCell.Tab.0.center" timestamp="1577346119917">
+    <state width="1411" height="247" key="GridCell.Tab.0.bottom/0.0.1454.864@0.0.1454.864" timestamp="1577350033110" />
+    <state width="1411" height="247" key="GridCell.Tab.0.center" timestamp="1577350033110">
       <screen x="0" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="247" key="GridCell.Tab.0.center/0.0.1454.864@0.0.1454.864" timestamp="1577346119917" />
-    <state width="1411" height="247" key="GridCell.Tab.0.left" timestamp="1577346119917">
+    <state width="1411" height="247" key="GridCell.Tab.0.center/0.0.1454.864@0.0.1454.864" timestamp="1577350033110" />
+    <state width="1411" height="247" key="GridCell.Tab.0.left" timestamp="1577350033110">
       <screen x="0" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="247" key="GridCell.Tab.0.left/0.0.1454.864@0.0.1454.864" timestamp="1577346119917" />
-    <state width="1411" height="247" key="GridCell.Tab.0.right" timestamp="1577346119917">
+    <state width="1411" height="247" key="GridCell.Tab.0.left/0.0.1454.864@0.0.1454.864" timestamp="1577350033110" />
+    <state width="1411" height="247" key="GridCell.Tab.0.right" timestamp="1577350033110">
       <screen x="0" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="247" key="GridCell.Tab.0.right/0.0.1454.864@0.0.1454.864" timestamp="1577346119917" />
-    <state x="408" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1577326668848">
+    <state width="1411" height="247" key="GridCell.Tab.0.right/0.0.1454.864@0.0.1454.864" timestamp="1577350033110" />
+    <state x="408" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1577526532242">
       <screen x="0" y="0" width="1454" height="864" />
     </state>
-    <state x="408" y="257" key="com.intellij.ide.util.TipDialog/0.0.1454.864@0.0.1454.864" timestamp="1577326668848" />
+    <state x="408" y="257" key="com.intellij.ide.util.TipDialog/0.0.1454.864@0.0.1454.864" timestamp="1577526532242" />
     <state x="390" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1577326578450">
       <screen x="0" y="0" width="1454" height="864" />
     </state>

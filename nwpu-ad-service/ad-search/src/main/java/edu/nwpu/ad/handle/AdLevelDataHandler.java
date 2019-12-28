@@ -31,7 +31,7 @@ import java.util.Set;
 @Slf4j
 public class AdLevelDataHandler {
 
-    private static void handleLevel2(AdPlanTable planTable, OpType type) {
+    public static void handleLevel2(AdPlanTable planTable, OpType type) {
         // 把AdPlanTable转变成AdPlanObject
         AdPlanObject planObject = new AdPlanObject(
                 planTable.getId(),
