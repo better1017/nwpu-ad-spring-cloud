@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14b41163-a682-451f-9985-4338f012e9c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/index/adunit/AdUnitConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/search/impl/SearchImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/index/adunit/AdUnitIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/index/adunit/AdUnitIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/index/adunit/AdUnitObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/index/adunit/AdUnitObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/search/impl/SearchImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/search/impl/SearchImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +82,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/mysql/listener" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -205,7 +201,7 @@
       <workItem from="1577521857148" duration="4061000" />
       <workItem from="1577526306784" duration="11098000" />
       <workItem from="1577585922857" duration="11739000" />
-      <workItem from="1577696159142" duration="917000" />
+      <workItem from="1577696159142" duration="1157000" />
     </task>
     <servers />
   </component>
@@ -254,6 +250,10 @@
       <screen x="0" y="0" width="1454" height="864" />
     </state>
     <state width="1411" height="247" key="GridCell.Tab.0.right/0.0.1454.864@0.0.1454.864" timestamp="1577350033110" />
+    <state x="160" y="70" key="SettingsEditor" timestamp="1577697317129">
+      <screen x="0" y="0" width="1454" height="864" />
+    </state>
+    <state x="160" y="70" key="SettingsEditor/0.0.1454.864@0.0.1454.864" timestamp="1577697317129" />
     <state x="408" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1577696159265">
       <screen x="0" y="0" width="1454" height="864" />
     </state>

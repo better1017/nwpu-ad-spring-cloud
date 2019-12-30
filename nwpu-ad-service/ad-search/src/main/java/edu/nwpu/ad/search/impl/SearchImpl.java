@@ -42,7 +42,7 @@ public class SearchImpl implements ISearch {
 
         // 构造响应对象
         SaerchResponse response = new SaerchResponse();
-        Map<String, List<SaerchResponse.Creative>> adSlot2Ads = 
+        Map<String, List<SaerchResponse.Creative>> adSlot2Ads =
                 response.getAdSlot2Ads();
 
         for (AdSlot adSlot : adSlots) {
