@@ -38,4 +38,49 @@ public class AdUnitObject {
             this.planId = newObject.getPlanId();
         }
     }
+
+    /**
+     * 校验
+     * 定义一些返回值为布尔类型的方法，用来实现判断positionType是否满足要求
+     **/
+    private static boolean isKaiPing(int positionType) {
+        return (positionType & AdUnitConstants.POSITION_TYPE.KAIPING) > 0;
+    }
+
+    private static boolean isTIEPIAN(int positionType) {
+        return (positionType & AdUnitConstants.POSITION_TYPE.TIEPIAN) > 0;
+    }
+
+    private static boolean isTIEPIANMiddle(int positionType) {
+        return (positionType & AdUnitConstants.POSITION_TYPE.TIEPIAN_MIDDLE) > 0;
+    }
+
+    private static boolean isTIEPIANPAUSE(int positionType) {
+        return (positionType & AdUnitConstants.POSITION_TYPE.TIEPIAN_PAUSE) > 0;
+    }
+
+    private static boolean isTIEPIANPOST(int positionType) {
+        return (positionType & AdUnitConstants.POSITION_TYPE.TIEPIAN_POST) > 0;
+    }
+
+    /**
+     * 定义一个总的方法，实现统一校验
+     **/
+    public static boolean isAdSlotTypeOK(int adSlotType, int positionType) {
+
+        switch (adSlotType) {
+            case AdUnitConstants.POSITION_TYPE.KAIPING:
+                return isKaiPing(positionType);
+            case AdUnitConstants.POSITION_TYPE.TIEPIAN:
+                return isTIEPIAN(positionType);
+            case AdUnitConstants.POSITION_TYPE.TIEPIAN_MIDDLE:
+                return isTIEPIANMiddle(positionType);
+            case AdUnitConstants.POSITION_TYPE.TIEPIAN_PAUSE:
+                return isTIEPIANPAUSE(positionType);
+            case AdUnitConstants.POSITION_TYPE.TIEPIAN_POST:
+                return isTIEPIANPOST(positionType);
+            default:
+                return false;
+        }
+    }
 }
