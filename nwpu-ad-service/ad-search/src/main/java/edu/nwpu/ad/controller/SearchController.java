@@ -5,6 +5,9 @@ import edu.nwpu.ad.annotation.IgnoreResponseAdvice;
 import edu.nwpu.ad.client.SponsorClient;
 import edu.nwpu.ad.client.vo.AdPlan;
 import edu.nwpu.ad.client.vo.AdPlanGetRequest;
+import edu.nwpu.ad.search.ISearch;
+import edu.nwpu.ad.search.vo.SaerchResponse;
+import edu.nwpu.ad.search.vo.SearchRequest;
 import edu.nwpu.ad.vo.CommonResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,21 +26,32 @@ import java.util.List;
 @RestController
 public class SearchController {
 
+    private final ISearch search;
+
     private final RestTemplate restTemplate;
 
     private final SponsorClient sponsorClient;
 
     @Autowired
-    public SearchController(RestTemplate restTemplate, @Qualifier("eureka-client-ad-sponsor") SponsorClient sponsorClient) {
+    public SearchController(RestTemplate restTemplate, @Qualifier("eureka-client-ad-sponsor") SponsorClient sponsorClient, ISearch search) {
         this.restTemplate = restTemplate;
         this.sponsorClient = sponsorClient;
+        this.search = search;
+    }
+
+    @PostMapping("/fetchAds")
+    public SaerchResponse fetchAds(@RequestBody SearchRequest request) {
+
+        log.info("ad-search: fetchAds -> {}",
+                JSON.toJSONString(request));
+        return search.fetchAds(request);
     }
 
     @IgnoreResponseAdvice //不想使用通用响应时，使用这个注解，是自定义的
     @PostMapping("/getAdPlans") //当调用检索系统的getAdPlans时，就会使用到feign的方式去调用ad-sponsor的服务
     public CommonResponse<List<AdPlan>> getAdPlans(
             @RequestBody AdPlanGetRequest request
-    ){
+    ) {
         log.info("ad-search: getAdPlans -> {}",
                 JSON.toJSONString(request));
         return sponsorClient.getAdPlans(request);

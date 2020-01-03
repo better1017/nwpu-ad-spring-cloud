@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="14b41163-a682-451f-9985-4338f012e9c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/search/impl/SearchImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/search/impl/SearchImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ad-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nwpu-ad-service/ad-search/src/main/java/edu/nwpu/ad/controller/SearchController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +205,7 @@
       <workItem from="1577585922857" duration="11739000" />
       <workItem from="1577696159142" duration="18342000" />
       <workItem from="1577972492319" duration="1425000" />
-      <workItem from="1578020435838" duration="1944000" />
+      <workItem from="1578020435838" duration="3135000" />
     </task>
     <servers />
   </component>
