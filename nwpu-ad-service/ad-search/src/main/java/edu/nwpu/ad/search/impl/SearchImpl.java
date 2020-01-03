@@ -1,7 +1,13 @@
 package edu.nwpu.ad.search.impl;
 
+import com.alibaba.fastjson.JSON;
+import edu.nwpu.ad.index.CommonStatus;
 import edu.nwpu.ad.index.DataTable;
 import edu.nwpu.ad.index.adunit.AdUnitIndex;
+import edu.nwpu.ad.index.adunit.AdUnitObject;
+import edu.nwpu.ad.index.creative.CreativeIndex;
+import edu.nwpu.ad.index.creative.CreativeObject;
+import edu.nwpu.ad.index.creativeunit.CreativeUnitIndex;
 import edu.nwpu.ad.index.district.UnitDistrictIndex;
 import edu.nwpu.ad.index.interest.UnitItIndex;
 import edu.nwpu.ad.index.keyword.UnitKeywordIndex;
@@ -71,9 +77,37 @@ public class SearchImpl implements ISearch {
                         itFeature
                 );
             }
+
+            // 获取adUnitObject对象
+            List<AdUnitObject> unitObjects =
+                    DataTable.of(AdUnitIndex.class).fetch(targetUnitIdSet);
+
+            filterAdUnitAndPlanStatus(unitObjects, CommonStatus.VALID);
+
+            List<Long> adIds = DataTable.of(CreativeUnitIndex.class)
+                    .selectAds(unitObjects);
+            List<CreativeObject> creatives = DataTable.of(CreativeIndex.class)
+                    .fetch(adIds);
+
+            // 通过 AdSlot 实现对 CreativeObject 的过滤
+            filterCreeativeByAdSlot(
+                    creatives,
+                    adSlot.getWidth(),
+                    adSlot.getHeight(),
+                    adSlot.getType()
+            );
+
+            adSlot2Ads.put(
+                    // 返回的是随机的创意信息，返回多个用List
+                    adSlot.getAdSlotCode(), buildCreativeResponse(creatives)
+            );
         }
 
-        return null;
+        log.info("fetchAds: {}-{}",
+                JSON.toJSONString(request),
+                JSON.toJSONString(response));
+
+        return response;
     }
 
     /**
@@ -163,5 +197,59 @@ public class SearchImpl implements ISearch {
                                     itFeature.getIts())
             );
         }
+    }
+
+    /**
+     * 根据推广单元以及它关联的推广计划的状态，
+     * 实现对传入的unitObjects进行过滤
+     */
+    private void filterAdUnitAndPlanStatus(List<AdUnitObject> unitObjects,
+                                           CommonStatus status) {
+
+        if (CollectionUtils.isEmpty(unitObjects)) {
+            return;
+        }
+
+        CollectionUtils.filter(
+                unitObjects,
+                object -> object.getUnitStatus().equals(status.getStatus())
+                        && object.getAdPlanObject().getPlanStatus().equals(status.getStatus())
+        );
+    }
+
+    private void filterCreeativeByAdSlot(List<CreativeObject> creatives,
+                                         Integer width,
+                                         Integer height,
+                                         List<Integer> type) {
+
+        if (CollectionUtils.isEmpty(creatives)) {
+            return;
+        }
+
+        CollectionUtils.filter(
+                creatives,
+                creative ->
+                        creative.getAuditStatus().equals(CommonStatus.VALID.getStatus())
+                                && creative.getWidth().equals(width)
+                                && creative.getHeight().equals(height)
+                                && type.contains(creative.getType())
+        );
+    }
+
+    private List<SaerchResponse.Creative> buildCreativeResponse(
+            List<CreativeObject> creatives
+    ) {
+
+        if (CollectionUtils.isEmpty(creatives)) {
+            return Collections.emptyList();
+        }
+
+        CreativeObject randomObject = creatives.get(
+                Math.abs(new Random().nextInt()) % creatives.size()
+        );
+
+        return Collections.singletonList(
+                SaerchResponse.convert(randomObject)
+        );
     }
 }
